@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="jugueteria.html">Jugueteria</a>
+                </li>
+                <li>
+                    <a href="libreria.html">Libreria</a>
+                </li>
+                <li>
+                    <a href="marroquineria.html">Marroquineria</a>
+                </li>
+                <li>
+                    <a href="accesorios.html">Accesorios</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+		<h1>CONTACTO</h1>
+	</section>
+	<!-- formulario de contacto -->
+	<section>
+		<article>
+			<form action="#">
+				<input type="text" placeholder="Nombre y Apellido"><br>
+				<label for="email">Completar Email:
+					<input type="email" placeholder="aaa@gmail.com" name="email"><br>
+				</label>
+				<label for="Observaciones"> Observaciones:<br>
+					<textarea placeholder="Observaciones"></textarea>
+				</label> <br>
+				<input type="number" placeholder="EDAD"><br>
+				<div><p>De que te interesaría conocer?:</p>
+					<div>Libreria
+						<input type="radio" name="lado" value="libreria">
+					</div>
+					<div>Jugueteria
+						<input type="radio" name="lado" value="jugueteria">
+					</div>
+                    <div>Marroquineria
+						<input type="radio" name="lado" value="marroquineria">
+					</div>
+                    <div>Accesorios
+						<input type="radio" name="lado" value="accesorios">
+					</div>
+				</div>
+				<p>Como nos conociste?</p>
+				<select name="conociste?" id="conociste?"> 
+					<option value="Redes Sociales">Redes Sociales</option>
+					<option value="Recomendacion">Recomendacion personal</option>
+					<option value="Otros">Otros</option>
+				</select>
+				<div>Queres recibir info sobre nosotros?
+				<input type="checkbox" name="acepta" value="1"></div>
+				<input type="submit" value="PASAME LA DATA">
+				<input type="reset" value="RESETEAR">
+			</form>
+		</article>
+	</section>    
+    <footer>
+        <h1>Ubicacion : Rosales 2420 olivos</h1>
+        <h2>Facebook: multishopolivos</h2> 
+        <h2>Instagram: multishopolivos</h2>   
+    </footer>
+</body>
+</html>
