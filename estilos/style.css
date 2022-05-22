@@ -4,16 +4,6 @@
     margin: 0;
 }
 
-@media (min-width:320px) {
-
-header{
-    background-color: rgba(56, 55, 55, 0.637);
-    padding: 1cm;
-    margin-top: 0;
-    border: 5px dotted rgba(0, 0, 0, 0.187);
-    border-radius: .5cm;
-}
-
 .principal1{
     background-image: linear-gradient(to bottom , black, rgb(21, 21, 63));
     color: aliceblue;
@@ -63,20 +53,6 @@ header{
     font-size: .2cm;
     font-family: Arial, Helvetica, sans-serif;
     ;
-}
-nav ul li{
-      display: block;
-      list-style-type: none;    
-
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: .5cm;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bold;
-    margin: .2cm;
 }
 
 footer{
@@ -173,18 +149,9 @@ figcaption{
 .footergrid{
     grid-area: footergrid;
 }
-}
+
 
 @media (min-width: 500px) {
- header{
-     display: flex;
-    justify-content: end;     
- }   
-
- nav ul li{
-    display: inline-block;
-    list-style-type: none;    
-}
 
 nav ul li a{
     font-size: .45cm;
@@ -210,11 +177,6 @@ nav ul li a{
 
 @media (min-width: 800px) {
     
-    header{
-    display: flex;
-justify-content: end;
-    }
-
 .principal1{
     font-size: 30px;
     padding: 2cm 2cm 2cm 2cm;
