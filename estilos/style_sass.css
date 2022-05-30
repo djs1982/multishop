@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+footer {
+  background-color: rgba(56, 55, 55, 0.637);
+  padding: .5cm;
+  margin-top: 0;
+  border: 5px dotted rgba(0, 0, 0, 0.187);
+  border-radius: .5cm;
+}
+
+footer #p3 {
+  color: aliceblue;
+  font-size: .4cm;
+  font-family: 'Dosis', sans-serif;
+}
+
+footer #p4 {
+  color: aliceblue;
+  font-size: .2cm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 800px) {
+  footer #p3 {
+    font-size: .6cm;
+  }
+  footer #p4 {
+    font-size: 0.3cm;
+  }
+}
+
+.transformacion:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.principal1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#15153f));
+  background-image: linear-gradient(to bottom, black, #15153f);
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin: 10px 3px 10px 3px;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  border: .3cm;
+  border-color: grey;
+  border-style: double;
+}
+
+.principal2 {
+  background-image: url(../img/3414695.jpg);
+  background-repeat: no-repeat;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  padding: 1.5cm;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#p1 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+#p2 {
+  margin-top: 10px;
+}
+
+.img1 {
+  height: 200px;
+  width: 200px;
+  border: 5px double black;
+}
+
+.jugueteria {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas: "headergrid" "tituloj" "juguetes" "footergrid";
+}
+
+.juguetes {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: juguetes;
+}
+
+.imgsection {
+  background-image: url(../img/3414695.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  border: 5px solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.tituloj {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: tituloj;
+  background-color: rgba(56, 55, 55, 0.637);
+  padding: 1cm;
+  margin-top: 0;
+  border: 5px solid rgba(0, 0, 0, 0.187);
+  border-radius: .5cm;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head1 {
+  color: aliceblue;
+  font-size: .5cm;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+
+figcaption {
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.indexgrid {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: " headergrid" "maingrid" "footergrid";
+}
+
+.headergrid {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: headergrid;
+  margin-bottom: 10px;
+}
+
+.maingrid {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: maingrid;
+}
+
+.footergrid {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footergrid;
+}
+
+@media (min-width: 500px) {
+  nav ul li a {
+    font-size: .45cm;
+    margin: .05cm;
+  }
+  .img1 {
+    height: 300px;
+    width: 300px;
+  }
+  #p3 {
+    font-size: .5cm;
+  }
+  #p4 {
+    font-size: .3cm;
+  }
+  .principal1 {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+
+@media (min-width: 500px) and (min-width: 800px) {
+  .principal1 {
+    font-size: 30px;
+    padding: 2cm 2cm 2cm 2cm;
+  }
+  .principal2 {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #p1 {
+    font-size: 30px;
+  }
+  #p2 {
+    margin-top: 30px;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li a {
+    font-size: .7cm;
+    margin: .3cm;
+  }
+  .img1 {
+    height: 500px;
+    width: 500px;
+  }
+  .jugueteria {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "headergrid headergrid headergrid" "tituloj tituloj tituloj" "juguetes juguetes juguetes" "footergrid footergrid footergrid";
+  }
+  .imgsection {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  .head1 {
+    font-size: 2cm;
+  }
+  .indexgrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: " headergrid headergrid headergrid" "maingrid maingrid maingrid" "footergrid footergrid footergrid";
+  }
+}
+/*# sourceMappingURL=style_sass.css.map */
