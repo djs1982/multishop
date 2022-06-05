@@ -7,24 +7,15 @@ footer {
   border-radius: .5cm;
 }
 
-footer #p3 {
+footer .footer {
   color: aliceblue;
   font-size: .4cm;
   font-family: 'Dosis', sans-serif;
 }
 
-footer #p4 {
-  color: aliceblue;
-  font-size: .2cm;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @media (min-width: 800px) {
-  footer #p3 {
+  .footer {
     font-size: .6cm;
-  }
-  footer #p4 {
-    font-size: 0.3cm;
   }
 }
 
@@ -37,6 +28,7 @@ footer #p4 {
           transition-duration: 3s;
 }
 
+/* mapa, mixin, extend*/
 .principal1 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#15153f));
   background-image: linear-gradient(to bottom, black, #15153f);
@@ -71,6 +63,23 @@ footer #p4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn--facebook {
+  color: #3a5795;
+  font-size: .5cm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn--instagram {
+  color: #C25E30;
+  font-size: .5cm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mymixin {
+  color: blue;
+  font-size: 50px;
 }
 
 * {

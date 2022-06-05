@@ -4,28 +4,24 @@ footer{
    margin-top: 0;
    border: 5px dotted rgba(0, 0, 0, 0.187);
    border-radius: .5cm;
-   #p3{
+   .footer{
     color: $principal;
     font-size: .4cm;
     font-family: 'Dosis', sans-serif;
     }
-    #p4{
-    color: $principal;
-    font-size: .2cm;
-    font-family: Arial, Helvetica, sans-serif;
     }
     @media (min-width: 800px) { 
-        #p3{
+        .footer{
         font-size: .6cm;
         }
-        #p4{
-        font-size: 0.3cm;
-        }
 }
-}
+
 .transformacion:hover{
     transform: scale(1.5);
     transition-property: all;
     transition-duration: 3s;
 
 }
+
+/* mapa, mixin, extend*/ 
+

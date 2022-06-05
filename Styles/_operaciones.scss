@@ -1,0 +1,19 @@
+$redes: (
+facebook: #3a5795,
+instagram: #C25E30
+);
+@each $red, $color in $redes {
+.btn--#{$red} {
+color: $color;
+font-size: .5cm;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+}
+@mixin contacto ($colorcontacto,$fontcontacto){
+    color: $colorcontacto;
+    font-size: $fontcontacto;
+    
+}
+
+.mymixin{ @include contacto(blue, 50px)}
