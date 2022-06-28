@@ -77,11 +77,6 @@ footer .footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.mymixin {
-  color: blue;
-  font-size: 50px;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -142,7 +137,7 @@ img {
   display: flex;
   margin-top: 10px;
   border: 5px solid black;
-  width: 150px;
+  width: 225px;
   height: 150px;
 }
 
@@ -215,7 +210,7 @@ figcaption {
   }
   .img1 {
     height: 300px;
-    width: 300px;
+    width: 450px;
   }
   #p3 {
     font-size: .5cm;
@@ -262,8 +257,8 @@ figcaption {
     margin: .3cm;
   }
   .img1 {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 800px;
   }
   .jugueteria {
     display: -ms-grid;

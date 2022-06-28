@@ -10,10 +10,3 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 }
-@mixin contacto ($colorcontacto,$fontcontacto){
-    color: $colorcontacto;
-    font-size: $fontcontacto;
-    
-}
-
-.mymixin{ @include contacto(blue, 50px)}
